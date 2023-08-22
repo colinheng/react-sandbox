@@ -14,7 +14,7 @@ function UseRefExample1() {
 
   return (
     <div>
-      UseRefExample1
+      <p>UseRefExample1</p>
       <form onSubmit={onSubmit}>
         <label htmlFor="name">Name</label>
         <input type="text" ref={inputRef} id="name" className="form-control mb-2" />

@@ -14,7 +14,7 @@ function UseRefExample2() {
   )
   return (
     <div>
-      UseRefExample2
+      <p>UseRefExample2</p>
       <h1>Renders: {renders.current}</h1>
       <h2>Prev Name: {prevName.current}</h2>
       <input type="text" value={name} onChange={(e) => setName(e.target.value)} className="form-control mb-3" />
